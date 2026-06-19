@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { MapPin, Phone, Mail, Clock, MessageCircle, Send, Check } from 'lucide-react'
 import AnimatedSection from '../components/ui/AnimatedSection'
-import SEO from '../components/seo/SEO'
+import SEO from '../components/seo/Seo'
 
 const Contact = () => {
   const [formState, setFormState] = useState({ name: '', email: '', phone: '', message: '', interest: '' })

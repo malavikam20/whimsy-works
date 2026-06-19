@@ -1,4 +1,4 @@
-import SEO from '../components/seo/SEO'
+import SEO from '../components/seo/Seo'
 import Hero from '../components/home/Hero'
 import StoryTeaser from '../components/home/StoryTeaser'
 import CategoryGrid from '../components/home/CategoryGrid'

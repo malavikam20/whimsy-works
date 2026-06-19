@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { getProductById } from '../data/products'
-import SEO from '../components/seo/SEO'
+import SEO from '../components/seo/Seo'
 import ImageGallery from '../components/product/ImageGallery'
 import ProductInfo from '../components/product/ProductInfo'
 import RelatedProducts from '../components/product/RelatedProducts'

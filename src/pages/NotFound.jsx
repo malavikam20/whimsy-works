@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import SEO from '../components/seo/SEO'
+import SEO from '../components/seo/Seo'
 import AnimatedSection from '../components/ui/AnimatedSection'
 
 const NotFound = () => {

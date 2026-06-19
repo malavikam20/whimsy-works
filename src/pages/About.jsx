@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import AnimatedSection from '../components/ui/AnimatedSection'
 import SectionDivider from '../components/ui/SectionDivider'
-import SEO from '../components/seo/SEO'
+import SEO from '../components/seo/Seo'
 
 const timeline = [
   {
