@@ -8,9 +8,14 @@ export default defineConfig({
     sourcemap: true,
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          animation: ['framer-motion'],
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('framer-motion')) return 'animation'
+            if (id.includes('react-router-dom') || id.includes('react-helmet-async')) return 'vendor'
+            if (id.includes('react') || id.includes('react-dom')) return 'vendor'
+            return 'vendor'
+          }
+          return undefined
         },
       },
     },
